@@ -1,0 +1,88 @@
+html,
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+header {
+  background-color: #565656;
+  display: flex;
+  justify-content: center;
+}
+
+header a,
+header a:hover,
+header a:focus,
+header a:visited {
+  text-decoration: none;
+  color: #7fffd4;
+}
+
+h1 {
+  margin: 0.25em;
+  color: #7fffd4;
+}
+
+a {
+  color: #007f54;
+}
+
+a:hover,
+a:active {
+  color: #001d13;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color: #003120;
+}
+
+.navLink {
+  padding: 0 0 1em;
+}
+
+h3 {
+  margin: 0.25em 0;
+}
+
+.subContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.photos {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.photos li {
+  list-style: none;
+  margin: 1em;
+}
+
+.photo {
+  width: 50%;
+  align-self: center;
+}
